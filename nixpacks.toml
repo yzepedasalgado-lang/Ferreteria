@@ -1,0 +1,11 @@
+[phases.build]
+cmds = [
+    "npm run build"
+]
+
+[start]
+cmd = "php artisan serve --host=0.0.0.0 --port=$PORT"
+
+[variables]
+NPM_CONFIG_PRODUCTION = "false"
+NIXPACKS_PHP_ROOT_DIR = "/app/public"
