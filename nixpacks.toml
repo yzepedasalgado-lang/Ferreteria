@@ -7,5 +7,6 @@ cmds = [
 cmd = "php artisan serve --host=0.0.0.0 --port=$PORT"
 
 [variables]
+NIXPACKS_NODE_VERSION = "20"
 NPM_CONFIG_PRODUCTION = "false"
 NIXPACKS_PHP_ROOT_DIR = "/app/public"
